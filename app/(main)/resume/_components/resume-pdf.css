@@ -1,0 +1,51 @@
+/* PDF-safe styles */
+body {
+  font-family: 'Atlas', sans-serif;
+  color: #252525;
+  background: #ffffff;
+  line-height: 1.4;
+  word-break: break-word;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 8px;
+  border-bottom: 2px solid #333;
+  padding-bottom: 4px;
+}
+
+ul {
+  margin: 0;
+  padding-left: 20px;
+  list-style-type: disc;
+  line-height: 1.4;
+}
+
+ul li {
+  margin-bottom: 4px;
+}
+
+.two-column {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.two-column .column {
+  flex: 1;
+  min-width: 45%;
+}
+
+.resume-section {
+  margin-top: 16px;
+}
+
+/* PDF-safe colors */
+body { color: #252525; background: #ffffff; }
+h2 { color: #252525; }
+ul li { color: #252525; }
